@@ -1,7 +1,7 @@
-# Parte 1 — Introducción: contexto y notación
+# Hands-On Transformers — Clase teórica: Attention Is All You Need
 
 **Guion del docente · borrador para aprobación**
-Duración estimada: unos 85 minutos, 30 diapositivas. El texto a decir va en párrafos; las *[indicaciones]* van en cursiva.
+Duración estimada: unos 85 minutos, 31 diapositivas. El texto a decir va en párrafos; las *[indicaciones]* van en cursiva.
 
 ---
 
@@ -468,7 +468,14 @@ Ritmo rápido: una o dos frases por clic. El recuadro azul marca qué caja estam
 
 ---
 
+## Diapositiva 31 — Muchas gracias (≈1 min)
+
+*[La animación arranca sola al entrar a la slide y dura unos 8 segundos. Para repetirla, volver a la 30 y avanzar.]*
+
+Una última pasada, ahora para despedirnos. Esto es solo la capa Linear del final: a la izquierda, el vector que sale del decoder; a la derecha, algunas palabras del vocabulario. En cada paso se enciende la que gana la softmax, y esa palabra pasa a la frase de arriba: «Muchas», «gracias», «!». Y cuando gana fin de secuencia, se termina.
+
+Muchas gracias. ¿Preguntas?
+
 *Puntos abiertos para la revisión*
 - El nombre del docente y la fecha en la diapositiva 1 son marcadores de posición.
-- La hoja de ruta de las Partes 2 a 4 es una propuesta; ajustarla a tu planificación.
 - Idioma: diapositivas y guion en español.
